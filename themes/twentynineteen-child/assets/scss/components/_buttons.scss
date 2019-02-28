@@ -1,0 +1,130 @@
+// Link Styles
+//
+// Weight: 1
+// A normal Anchor tag
+//
+// Markup:
+// <a>Link</a>
+//
+// :hover             - Subtle hover highlight.
+//
+//
+//
+// Styleguide buttons.link
+a {
+  transition: color .4s;
+  color: $brand-one;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+
+}
+
+a:link,
+a:visited {
+  color: darken($brand-one, 10%);
+}
+
+a:hover {
+  color: lighten($brand-one, 10%)
+}
+
+a:active {
+  transition: color .3s;
+  color: lighten($brand-one, 40%)
+}
+
+.link {
+  text-decoration: none;
+}
+
+// Primary Styles
+//
+// Primary call to action
+//
+// Weight: 1
+//
+// :hover       - Hover state.
+// :active      - Active state.
+// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead.
+//
+// Markup:
+// <a class="primary {{modifier_class}}">Button</a>
+//
+// Styleguide buttons.primary
+a.primary, span.primary> a, input[type=submit] {
+  background: $black;
+  color: $white;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 5px 0;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  &:hover {
+    background-color: rgba($brand-three, 0.5);
+  }
+  &:active {
+    background-color: $brand-two;
+    color: $white;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 15px 25px;
+  }
+}
+
+// Secondary Styles
+//
+// Secondary call to action
+//
+// Weight: 2
+//
+// :hover       - Hover state.
+// :active      - Active state.
+// .disabled    - Disabled button. If you use `<button>` element, that is acceptable to add `disabled` attribute instead
+//
+// Markup:
+// <a class="secondary {{modifier_class}}">Button</a>
+//
+// Styleguide buttons.secondary
+a.secondary, span.secondary > a {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 0px;
+  margin-bottom: 5px;
+
+  background-color: $brand-three;
+  color: $white;
+
+  font-size: 0.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: 1px;
+
+  transition-property: background-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.2s;
+
+  &:hover {
+    background-color: rgba($brand-three, 0.5);
+  }
+  &:active {
+    background-color: $brand-two;
+    color: $white;
+  }
+  &:disabled {
+    background-color: $gray;
+    color: $white;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 10px 20px;
+  }
+}

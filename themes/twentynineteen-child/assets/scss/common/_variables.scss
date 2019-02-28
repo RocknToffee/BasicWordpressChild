@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Mukta+Vaani');
+// Primary Colors
+//
+// Weight: 1
+//
+// The primary colors for branding.
+//
+//$brand-one  -  #FA6900; burtn orange
+//$brand-two  -  #F38630;
+//$brand-three -  #69d2e7;
+//$brand-four  -  #A7DBD8;
+//$brand-five  -  #E0E4CC;
+//
+// Styleguide colours.brand
+
+
+// Grid settings
+$enable-flex:           true;
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-one: #FA6900;
+$brand-two: #F38630;
+$brand-three: #69d2e7;
+$brand-four: #A7DBD8;
+$brand-five: #E0E4CC;
+
+// Base Colors
+//
+// Weight: 2
+//
+// Base primary colors for branding.
+//
+// $paragraph-color - #505050;
+// $heading-color - #000000;
+//$white -  #ffffff;
+//$black - #2b2b2b;
+//$blockquote-color - #505050;
+//$link-color - #4eaff6;
+
+//
+// Styleguide colours.base
+
+$white: #ffffff;
+$gray: #ffffff;
+$black:#2b2b2b;
+
+
+/*------------------------------------*\
+    # Simple Typography Settings
+\*------------------------------------*/
+
+// Font Family
+$font-family: 'Raleway', sans-serif;
+$header-font-family: 'Raleway', sans-serif;
+
+// Base Font for HTML
+$base-font-size: 18px;
+
+// Paragraph Styles
+$paragraph-color      : #505050;
+$paragraph-size       : rem(19px);
+$paragraph-line-height: 1.5em;
+$paragraph-margin     : 20px;
+
+// Header Styles
+$header-color      : #000000;
+$header-size       : rem(45px);
+$header-line-height: 1.25em;
+$header-margin     : $paragraph-margin * 1.2;
+
+// Blockquote Styles
+$blockquote-color      : #505050;
+$blockquote-size       : rem(26px);
+$blockquote-line-height: 1.5em;
+$blockquote-margin     : 0;
+
+// Links
+$link-color: #4eaff6;
+
+// hr
+$hr-margin: 30px;
+
+// Type Misc
+$font-weight-bold: 600;
+$border-color: #DADADA;
+
+

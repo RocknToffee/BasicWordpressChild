@@ -1,0 +1,58 @@
+//BEM
+//.block            represents the higher level of an abstraction or component.
+//.block__element   represents a descendent of .block that helps form .block as a whole.
+//.block--modifier  represents a different state or version of .block.
+
+.block {
+}
+
+.block__element {
+}
+
+.block--modifier {
+}
+
+html {
+  overflow-x: hidden;
+}
+
+//SECTION WRAPPING, EACH NEW ROW SHOULD HAVE A NEW SECTION, OR IF RELATED OR SHARING A BACKGROUND REPLACE THE INNER WRAPPER
+section, header, footer {
+  width: 100%;
+  .inner_wrapper {
+    width: 100%;
+    position: relative;
+    .block, figure {
+      vertical-align: top;
+      box-sizing: border-box;
+      .inner_block{
+        box-sizing: border-box;
+      }
+      img {
+        max-width: 100%;
+      }
+    }
+    &.row {
+      display: inline-flex;
+    }
+  }
+}
+.constrain{
+  max-width: calc(100% -  calc(100% - 1008px));
+  margin: auto;
+  padding: 0 1em;
+  box-sizing: border-box;
+}
+.row_finder {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: $brand-one;
+  padding: 6px;
+  color: white!important;
+  width: auto;
+  height: 30px;
+  font-size: 1em;
+  margin: 0;
+}
