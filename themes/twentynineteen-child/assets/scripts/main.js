@@ -28,79 +28,6 @@
 
             },
             finalize: function () {
-                /*!
-                 * jquery.scrollto.js 0.0.1 - https://github.com/yckart/jquery.scrollto.js
-                 * Scroll smooth to any element in your DOM.
-                 *
-                 * Copyright (c) 2012 Yannick Albert (http://yckart.com)
-                 * Licensed under the MIT license (https://www.opensource.org/licenses/mit-license.php).
-                 * 2013/02/17
-                 **/
-
-
-                // Animation,
-                // JavaScript to be fired on all pages, after page specific JS is fired
-                window.sr = ScrollReveal({
-                    // reset: true
-                });
-
-                if ($(".animation")[0]) {
-                    // Do something if class exists
-                    sr.reveal(".animation", {
-                        origin: origin,
-                        delay: delay,
-                        duration: duration,
-                        distance: distance,
-                        easing: easing,
-                        scale: scale,
-
-                    });
-
-
-                    sr.reveal(".animation-sequenced", {
-                        origin: origin,
-                        delay: delay,
-                        duration: duration,
-                        distance: distance,
-                        easing: easing,
-                        scale: scale,
-
-                    }, sequenced);
-                } else {
-                    // Do something if class does not exist
-                }
-
-
-                $('.full_width_layouts.carousel ').slick({
-                    arrows: false
-
-                });
-    
-//CAROUSEL
-                $('.carousel').slick({
-                    dots: false,
-                    arrows: false,
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    fade: true,
-                    speed: 300,
-                    autoplay: true,
-                    autoplaySpeed: 5000,
-
-                });
-
-
-//CLICK AND TEXT TOGGLE
-                $(".slidingDiv").hide();
-                $('.show_hide').on("click", function () {
-                    if ($(this).html() == 'Read More') {
-                        $(this).html('Read Less');
-                    } else {
-                        $(this).html('Read More');
-                    }
-                    $(this).closest('.inner_block').siblings('.slidingDiv')
-                        .slideToggle();
-                });
 
                 var is_chrome = navigator.userAgent.indexOf('Chrome') > -1;
                 var is_explorer = navigator.userAgent.indexOf('MSIE') > -1;
@@ -128,97 +55,6 @@
                     $('body').addClass('opera');
                 }
 
-                $('.product').css({
-                    'display': 'inline-flex'
-                });
-
-// Add smooth scrolling to all links
-                $('a[href*=#]').on('click', function (event) {
-
-                    // Make sure this.hash has a value before overriding default behavior
-                    if (this.hash !== "") {
-                        // Prevent default anchor click behavior
-                        event.preventDefault();
-
-                        // Store hash
-                        var hash = this.hash;
-
-                        // Using jQuery's animate() method to add smooth page scroll
-                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-                        $('html, body').animate({
-                            scrollTop: $(hash).offset().top - 200
-                        }, 400, function () {
-
-
-                        });
-                    } // End if
-                });
-
-                //LIGHTBOX
-
-                $('.gallery-item').magnificPopup({
-                    type: 'image',
-                    closeOnContentClick: true,
-                    disableOn: 0,
-                    mainClass: 'mfp-fade',
-                    gallery: {
-                        enabled: true,
-                        preload: [0, 2]
-                    }
-                });
-
-                setShareLinks();
-
-                function socialWindow(url) {
-                    var left = (screen.width - 570) / 2;
-                    var top = (screen.height - 570) / 2;
-                    var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
-                    // Setting 'params' to an empty string will launch
-                    // content in a new tab or window rather than a pop-up.
-                    // params = "";
-                    window.open(url, "NewWindow", params);
-                }
-
-                function setShareLinks() {
-                    var pageUrl = encodeURIComponent(document.URL);
-                    var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
-
-                    $(".social-share.facebook").on("click", function () {
-                        url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
-                        socialWindow(url);
-                    });
-
-                    $(".social-share.twitter").on("click", function () {
-                        url = "https://twitter.com/intent/tweet?url=" + pageUrl + "&text=" + tweet;
-                        socialWindow(url);
-                    });
-
-                    $(".social-share.linkedin").on("click", function () {
-                        url = "https://www.linkedin.com/shareArticle?mini=true&url=" + pageUrl;
-                        socialWindow(url);
-                    })
-                }
-
-
-                $(window).scroll(function () {
-
-                    var target = $("#site-navigation").height();
-
-                    var st = $(this).scrollTop();
-                    if (st > target) {
-                        $('#masthead').addClass('active');
-                        $('.small-logo').addClass('active');
-                        $('.site-branding').addClass('deactive');
-                    }
-                    else {
-                        $('#masthead').removeClass('active');
-                        $('.small-logo').removeClass('active');
-                        $('.site-branding').removeClass('deactive');
-
-                    }
-
-
-                });
                 //looks for iframes wraps and adapts the height and width
                 (function (window, document, undefined) {
 
@@ -283,6 +119,123 @@
                     }
 
                 })(window, document);
+
+// Animation,
+                // JavaScript to be fired on all pages, after page specific JS is fired
+                window.sr = ScrollReveal({
+                    // reset: true
+                });
+
+                if ($(".animation")[0]) {
+                    // Do something if class exists
+                    sr.reveal(".animation", {
+                        origin: origin,
+                        delay: delay,
+                        duration: duration,
+                        distance: distance,
+                        easing: easing,
+                        scale: scale,
+
+                    });
+                } else {
+                    // Do something if class does not exist
+                }
+
+
+//CAROUSEL
+                $('.carousel').slick({
+                    dots: false,
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    fade: true,
+                    speed: 300,
+                    autoplay: true,
+                    autoplaySpeed: 5000,
+
+                });
+
+
+//CLICK AND TEXT TOGGLE
+                $(".slidingDiv").hide();
+                $('.show_hide').on("click", function () {
+                    if ($(this).html() == 'Read More') {
+                        $(this).html('Read Less');
+                    } else {
+                        $(this).html('Read More');
+                    }
+                    $(this).closest('.inner_block').siblings('.slidingDiv')
+                        .slideToggle();
+                });
+
+// Add smooth scrolling to all links
+                $('a[href*=#]').on('click', function (event) {
+
+                    // Make sure this.hash has a value before overriding default behavior
+                    if (this.hash !== "") {
+                        // Prevent default anchor click behavior
+                        event.preventDefault();
+
+                        // Store hash
+                        var hash = this.hash;
+
+                        // Using jQuery's animate() method to add smooth page scroll
+                        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                        $('html, body').animate({
+                            scrollTop: $(hash).offset().top - 200
+                        }, 400, function () {
+
+
+                        });
+                    } // End if
+                });
+
+                //LIGHTBOX
+
+                $('.gallery-item').magnificPopup({
+                    type: 'image',
+                    closeOnContentClick: true,
+                    disableOn: 0,
+                    mainClass: 'mfp-fade',
+                    gallery: {
+                        enabled: true,
+                        preload: [0, 2]
+                    }
+                });
+
+// SHARE LINKS
+
+                setShareLinks();
+
+                function socialWindow(url) {
+                    var left = (screen.width - 570) / 2;
+                    var top = (screen.height - 570) / 2;
+                    var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
+                    // Setting 'params' to an empty string will launch
+                    // content in a new tab or window rather than a pop-up.
+                    // params = "";
+                    window.open(url, "NewWindow", params);
+                }
+
+                function setShareLinks() {
+                    var pageUrl = encodeURIComponent(document.URL);
+                    var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
+
+                    $(".social-share.facebook").on("click", function () {
+                        url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
+                        socialWindow(url);
+                    });
+
+                    $(".social-share.twitter").on("click", function () {
+                        url = "https://twitter.com/intent/tweet?url=" + pageUrl + "&text=" + tweet;
+                        socialWindow(url);
+                    });
+
+                    $(".social-share.linkedin").on("click", function () {
+                        url = "https://www.linkedin.com/shareArticle?mini=true&url=" + pageUrl;
+                        socialWindow(url);
+                    })
+                }
 
             },
 

@@ -1,8 +1,8 @@
 <?php
 
 if (class_exists('acf')) {
-//IMPORT THE ACF FIELDS
-    // include('ACF-fields/post-flexible.php');
+//IMPORT THE ACF-fields FIELDS
+//     include('ACF-fields/flexible.php');
  
 }
 include('wordpress-mod.php');

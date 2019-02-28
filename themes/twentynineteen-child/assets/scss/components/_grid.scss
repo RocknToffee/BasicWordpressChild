@@ -1,10 +1,11 @@
 @supports (display: grid) {
 
-  div.grid_layouts.inner_wrapper {
+  .grid_layouts {
     display: grid;
     grid-gap: 3rem;
     grid-template-columns: [full-start] minmax(calc(calc(100% - 900px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 900px) / 2), 1fr) [full-end];
     align-items: stretch;
+    grid-auto-rows: auto;
 
     @media only screen and (min-width: 2200px) {
       grid-template-columns: [full-start] minmax(calc(calc(100% - 1500px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 1500px) / 2), 1fr) [full-end];
@@ -16,6 +17,7 @@
     @media only screen and (max-width: 700px) {
       grid-gap: 1rem;
     }
+
     &.zero-rem {
       grid-gap: 0;
     }
@@ -40,6 +42,8 @@
         grid-gap: 1rem;
       }
     }
+
+
     .block {
       &.margin {
         padding: 0 2rem;
@@ -47,6 +51,7 @@
       }
     }
     .one {
+      grid-row: auto;
       grid-column-start: 2;
       grid-column-end: 14;
       &.eighty {
@@ -98,12 +103,12 @@
       }
       &.twoleft {
         &:nth-child(2n+1) {
-          grid-column-start: 3;
+          grid-column-start: 2;
           grid-column-end: 10;
         }
         &:nth-child(2n+2) {
           grid-column-start: 10;
-          grid-column-end: 13;
+          grid-column-end: 14;
         }
         @media only screen and (max-width: 750px) {
           &:nth-child(2n+1) {
@@ -118,12 +123,12 @@
       }
       &.tworight {
         &:nth-child(2n+1) {
-          grid-column-start: 3;
-          grid-column-end: 10;
+          grid-column-start: 2;
+          grid-column-end: 6;
         }
         &:nth-child(2n+2) {
-          grid-column-start: 10;
-          grid-column-end: 13;
+          grid-column-start: 6;
+          grid-column-end: 14;
         }
         @media only screen and (max-width: 750px) {
           &:nth-child(2n+1) {
@@ -564,6 +569,7 @@
         }
       }
     }
+
     //FULL WIDTH STYLES
     &.full_width {
       grid-template-columns: repeat(12, unquote("[col]") 1fr);
@@ -986,6 +992,9 @@
   }
   //SUBGRID STYLES
   .inner_wrapper {
+    &.grid_margin{
+      grid-gap:0;
+    }
     .subgrid {
       padding: 0 !important;
       display: grid !important;

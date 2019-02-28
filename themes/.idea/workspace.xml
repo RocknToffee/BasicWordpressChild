@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31c09b4c-c361-4181-8d43-e314f2bb9657" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twentynineteen-child/assets/scss/common/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/assets/scss/common/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twentynineteen-child/assets/scripts/critical/critical.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/twentynineteen-child/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/assets/scripts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twentynineteen-child/assets/scss/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/assets/scss/components/_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/twentynineteen-child/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twentynineteen-child/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twentynineteen-child/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twentynineteen-child/lib/extras.php" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/lib/extras.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twentynineteen-child/lib/wordpress-mod.php" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/lib/wordpress-mod.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twentynineteen-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twentynineteen-child/templates/content-page-flexible.php" beforeDir="false" afterPath="$PROJECT_DIR$/twentynineteen-child/templates/content-page-flexible.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,33 +20,159 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="869">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/components/_forms.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3796" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/common/_variables.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5352505">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/twentynineteen-child/templates/content-page-flexible.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="185">
+                  <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+                    <element signature="e#6522#6677#0#PHP" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/w44/assets/styles/layouts/_flexible.scss">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/w44/assets/styles/components/_grid.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="329">
+                  <caret line="943" lean-forward="true" selection-start-line="943" selection-end-line="943" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twentynineteen-child/lib/extras.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twentynineteen/functions.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="474">
+                  <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twentynineteen-child/lib/wordpress-mod.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="348">
+                  <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twentynineteen/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-40" />
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twentynineteen-child/acf-json/group_5c78337c7101b.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2820">
+                  <caret line="188" column="45" selection-start-line="188" selection-start-column="45" selection-end-line="188" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/storefront-child-theme-master/lib/ACF-fields/page-flexible.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#743#17869#1#PHP" />
+                    <element signature="e#17910#30588#1#PHP" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twentynineteen-child/lib/ACF-fields/flexible.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="373">
+                  <caret line="1869" column="37" lean-forward="true" selection-start-line="1869" selection-start-column="37" selection-end-line="1869" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/twentynineteen-child/acf-json/group_5c78337c7101b.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3686">
+                  <caret line="331" column="26" lean-forward="true" selection-start-line="331" selection-start-column="26" selection-end-line="331" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/components/_grid.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="262">
+                  <caret line="995" column="17" lean-forward="true" selection-start-line="995" selection-start-column="17" selection-end-line="995" selection-end-column="17" />
+                  <folding>
+                    <element signature="e#733#759#0" />
+                    <element signature="e#774#803#0" />
+                    <element signature="e#818#929#0" />
+                    <element signature="e#946#1057#0" />
+                    <element signature="e#1073#1184#0" />
+                    <element signature="e#1196#1287#0" />
+                    <element signature="e#1369#1562#0" />
+                    <element signature="e#1577#1895#0" />
+                    <element signature="e#1912#3898#0" />
+                    <element signature="e#2730#2959#0" />
+                    <element signature="e#3910#11076#0" />
+                    <element signature="e#11087#12732#0" />
+                    <element signature="e#12742#14158#0" />
+                    <element signature="e#14200#25228#0" />
+                    <element signature="e#36951#37049#0" />
+                    <element signature="e#37078#37120#0" />
+                    <element signature="e#37172#38034#0" />
+                    <element signature="e#38051#40499#0" />
+                    <element signature="e#40515#41877#0" />
+                    <element signature="e#41892#43598#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>layout</find>
+      <find>off</find>
+      <find>padding</find>
+      <find>two</find>
+      <find>grid_lo</find>
+      <find>one-re</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -48,8 +180,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/twentynineteen-child/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/twentynineteen-child/assets/scss/common/_variables.scss" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/style.css" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/gulpfile.js" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/functions.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/assets/scripts/main.js" />
+        <option value="$PROJECT_DIR$/storefront-child-theme-master/page-flexible.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/page-flexible.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/assets/scss/style.scss" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/lib/ACF/flexible.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/lib/ACF-fields/flexible.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/acf-json/group_5c78337c7101b.json" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/lib/wordpress-mod.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/header.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/footer.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/lib/extras.php" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/assets/scss/components/_grid.scss" />
+        <option value="$PROJECT_DIR$/twentynineteen-child/templates/content-page-flexible.php" />
       </list>
     </option>
   </component>
@@ -76,51 +223,36 @@
             <path>
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentynineteen-child" type="462c0819:PsiDirectoryNode" />
+              <item name="w44" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentynineteen-child" type="462c0819:PsiDirectoryNode" />
+              <item name="w44" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentynineteen-child" type="462c0819:PsiDirectoryNode" />
+              <item name="w44" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentynineteen-child" type="462c0819:PsiDirectoryNode" />
+              <item name="w44" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="themes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentynineteen-child" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="themes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentynineteen-child" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="themes" type="b2602c69:ProjectViewProjectNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="twentynineteen-child" type="462c0819:PsiDirectoryNode" />
+              <item name="w44" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="critical" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -133,6 +265,15 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/twentynineteen-child/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/twentynineteen-child" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/twentynineteen-child" />
+      <recent name="$PROJECT_DIR$/twentynineteen-child/lib/ACF-fields" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -156,6 +297,17 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="js" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/twentynineteen-child/gulpfile.js</gulpfile>
+      <tasks>
+        <task>js</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="sass" type="js.build_tools.gulp" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -170,6 +322,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gulp.js.sass" />
+        <item itemvalue="Gulp.js.js" />
       </list>
     </recent_temporary>
   </component>
@@ -183,59 +336,330 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551375338310</updated>
-      <workItem from="1551375340385" duration="141000" />
+      <workItem from="1551375340385" duration="15717000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141000" />
+    <option name="totallyTimeSpent" value="15717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" sideWeight="0.2756933" side_tool="true" visible="true" weight="0.24964234" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7243067" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21910828" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Gulp" order="1" sideWeight="0.27769348" side_tool="true" visible="true" weight="0.22889842" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.72230655" visible="true" weight="0.22889842" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.3299363" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.16050956" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/storefront-child-theme-master/templates/content-page-flexible.php</url>
+          <line>300</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/common/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="869">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="720">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/components/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/templates/content-page-news.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3796" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/common/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="447">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3285">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#4894#5687#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/template-parts/content/content-excerpt.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/template-parts/content/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/template-parts/footer/footer-widgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storefront-child-theme-master/page-flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-end-line="8" />
+          <folding>
+            <element signature="e#6#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/page.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/search.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/style.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storefront-child-theme-master/templates/content-page-flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="349" column="36" lean-forward="true" selection-start-line="349" selection-start-column="36" selection-end-line="349" selection-end-column="36" />
+          <folding>
+            <element signature="e#211#15668#0#PHP" />
+            <element signature="e#296#7438#0#PHP" />
+            <element signature="e#15799#15804#0#PHP" />
+            <element signature="e#16134#18157#0#HTML" />
+            <element signature="e#18228#21071#0#PHP" />
+            <element signature="e#29780#34283#0#PHP" />
+            <element signature="e#34296#44504#0#PHP" />
+            <element signature="e#53086#54116#0#PHP" />
+            <element signature="e#54129#55068#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w44/lib/ACF-fields/flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="475" column="58" selection-start-line="475" selection-end-line="476" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/page-flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#6#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storefront-child-theme-master/lib/ACF-fields/page-flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="37" lean-forward="true" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#743#17869#1#PHP" />
+            <element signature="e#17910#30588#1#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w44/includes/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w44/templates/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1206" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/storefront-child-theme-master/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/acf-json/group_5c78337c7101b.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2820">
+          <caret line="188" column="45" selection-start-line="188" selection-start-column="45" selection-end-line="188" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/lib/wordpress-mod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w44/templates/content-page-flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="27" />
+          <folding>
+            <element signature="e#6525#6564#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/lib/extras.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w44/assets/styles/layouts/_flexible.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/w44/assets/styles/components/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="943" lean-forward="true" selection-start-line="943" selection-end-line="943" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/lib/ACF-fields/flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="1869" column="37" lean-forward="true" selection-start-line="1869" selection-start-column="37" selection-end-line="1869" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/assets/scss/components/_grid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="995" column="17" lean-forward="true" selection-start-line="995" selection-start-column="17" selection-end-line="995" selection-end-column="17" />
+          <folding>
+            <element signature="e#733#759#0" />
+            <element signature="e#774#803#0" />
+            <element signature="e#818#929#0" />
+            <element signature="e#946#1057#0" />
+            <element signature="e#1073#1184#0" />
+            <element signature="e#1196#1287#0" />
+            <element signature="e#1369#1562#0" />
+            <element signature="e#1577#1895#0" />
+            <element signature="e#1912#3898#0" />
+            <element signature="e#2730#2959#0" />
+            <element signature="e#3910#11076#0" />
+            <element signature="e#11087#12732#0" />
+            <element signature="e#12742#14158#0" />
+            <element signature="e#14200#25228#0" />
+            <element signature="e#36951#37049#0" />
+            <element signature="e#37078#37120#0" />
+            <element signature="e#37172#38034#0" />
+            <element signature="e#38051#40499#0" />
+            <element signature="e#40515#41877#0" />
+            <element signature="e#41892#43598#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twentynineteen-child/templates/content-page-flexible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="109" column="48" selection-start-line="109" selection-start-column="48" selection-end-line="109" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+            <element signature="e#6522#6677#0#PHP" />
+          </folding>
         </state>
       </provider>
     </entry>
