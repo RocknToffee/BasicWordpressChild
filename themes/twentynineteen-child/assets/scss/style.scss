@@ -47,7 +47,6 @@ Images License: GNU General Public License v2 or later
 @import "common/typography";
 
 @import "vendor/slick";
-@import "vendor/youtube-js";
 @import "vendor/magnific-popup";
 // Buttons
 //
@@ -55,7 +54,6 @@ Images License: GNU General Public License v2 or later
 //
 // Styleguide buttons
 @import "components/buttons";
-//@import "components/comments";
 
 // Forms
 //
@@ -63,10 +61,7 @@ Images License: GNU General Public License v2 or later
 //
 // Styleguide forms
 @import "components/forms";
-//@import "components/grid";
-@import "components/grid_new";
 @import "components/wp-classes";
-@import "components/components";
 
 
 //@import "layouts/page-header";
@@ -75,7 +70,6 @@ Images License: GNU General Public License v2 or later
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
-@import "layouts/boiler_plate";
 @import "layouts/header";
 
 @import "layouts/flexible";

@@ -1,0 +1,402 @@
+// Form Example
+//
+// The `<form>`  tag is used to create an HTML form for user input.
+//
+// The `<form>`  element can contain one or more of the following form elements:
+//
+// `<input>` , `<textarea>` , `<button>` , `<select>` , `<option>` , `<optgroup>` , `<fieldset>` , `<label>`
+//
+// Weight: 1
+//
+// Markup:
+// <ul id="errors" class="">
+//    <li id="info">There were some problems with your form submission:</li>
+// </ul>
+// <p id="success">Thanks for your message! We will get back to you ASAP!</p>
+// <form method="post" action="process.php">
+//  <fieldset>
+//    <legend>Example Form</legend>
+//    <label for="name">Name: <span class="required">*</span></label>
+//    <input type="text" id="name" name="name" value="" placeholder="John Doe" required="required" autofocus="autofocus"/>
+//    <label for="email">Email Address: <span class="required">*</span></label>
+//    <input type="email" id="email" name="email" value="" placeholder="johndoe@example.com" required="required"/>
+//    <label for="telephone">Telephone: </label>
+//    <input type="tel" id="telephone" name="telephone" value=""/>
+//    <label for="enquiry">Enquiry: </label>
+//    <select id="enquiry" name="enquiry">
+//      <option value="general">General</option>
+//      <option value="sales">Sales</option>
+//      <option value="support">Support</option>
+//    </select>
+//    <label for="message">Message: <span class="required">*</span></label>
+//    <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters" required="required" data-minlength="20"></textarea>
+//    <span id="loading"></span>
+//    <input type="submit" value="Holla!" class="primary_cta"/>
+//    <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+//  </fieldset>
+// </form>
+//
+// Styleguide forms.input
+
+// Text Input
+//
+// The Input Text object represents an HTML `<input>`  element with type="text".
+//
+// Weight: 2
+//
+// Markup:
+// <label for="text">Text: </label>
+// <input type="text" id="text" name="text" value=""/>
+//
+// Styleguide forms.input.text
+
+// Password Input
+//
+// The Password object represents an HTML `<input>`  element with type="password".
+//
+// Weight: 3
+//
+// Markup:
+//    <label for="password">Password</label>
+//    <input type="password" placeholder="Password">
+//
+// Styleguide forms.input.password
+
+// Text Area
+//
+// The `<textarea>`  tag defines a multi-line text input control.
+//
+// A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).
+//
+// Weight: 4
+//
+// Markup:
+// <label for="message">Message: <span class="required">*</span></label>
+// <textarea id="message" name="message" placeholder="Your message must be greater than 20 charcters"required="required" data-minlength="20"></textarea>
+//
+// Styleguide forms.input.text-area
+
+// Radio Button
+//
+// Weight: 5
+//
+// Markup:
+//  <input type="radio" name="animal" value="Cat" />Cats<br />
+//  <input type="radio" name="animal" value="Dog" />Dogs<br />
+//  <input type="radio" name="animal" value="Bird" />Birds<br />
+//
+// Styleguide forms.input.radio-button
+
+// Checkbox
+//
+// Weight: 6
+//
+// Markup:
+// <input type="checkbox" name="animal" value="Cat" />Cats <br />
+// <input type="checkbox" name="animal" value="Dog" />Dogs<br />
+// <input type="checkbox" name="animal" value="Bird" />Birds<br />
+//
+// Styleguide forms.input.checkbox
+
+// Select
+//
+// The `<select>`  element is used to create a drop-down list.
+//
+// The `<option>`  tags inside the `<select>`  element define the available options in the list.
+//
+// Weight: 7
+//
+// Markup:
+// <label for="enquiry">Enquiry: </label>
+//    <select id="enquiry" name="enquiry">
+//      <option value="general">General</option>
+//      <option value="sales">Sales</option>
+//      <option value="support">Support</option>
+//    </select>
+//
+// Styleguide forms.input.select
+
+// Data List
+//
+// Weight: 8
+//
+// Markup:
+// <input list="browsers">
+// <datalist id="browsers">
+//    <option value="Internet Explorer">
+//    <option value="Firefox">
+//    <option value="Chrome">
+//    <option value="Opera">
+//    <option value="Safari">
+// </datalist>
+//
+// Styleguide forms.input.data-input
+
+// Group Select
+//
+// The optgroup is used to group related options in a drop-down list.
+//
+// Weight: 9
+//
+// Markup:
+// <select>
+//  <optgroup label="Swedish Cars">
+//    <option value="volvo">Volvo</option>
+//    <option value="saab">Saab</option>
+//  </optgroup>
+//  <optgroup label="German Cars">
+//    <option value="mercedes">Mercedes</option>
+//    <option value="audi">Audi</option>
+//  </optgroup>
+// </select>
+//
+// Styleguide forms.input.group-select
+
+// Slider
+//
+// Weight: 10
+//
+// Markup:
+// <form oninput="x.value=parseInt(a.value)">
+//   <label for="fader">Volume</label>
+//   <input type="range"
+//     name="a"
+//     id="fader"
+//     min="1"
+//     max="100"
+//     value="50"
+//     step="1"
+//     aria-valuemin="1"
+//     aria-valuemax="100"
+//     aria-valuenow="50"
+//     oninput="outputUpdate(value)">
+//   <output name="x" for="fader" id="volume">50</output>
+// </form>
+//
+// Styleguide forms.input.slider
+
+fieldset {
+  width: 100%;
+  max-width: 400px;
+  font-family: sans-serif;
+  border: 1px solid $brand-three;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+fieldset legend {
+  background: $brand-three;
+  padding: 5px 10px;
+  font-size: $header-size / 2;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+form {
+  grid-column: col / span 12;
+  input[type=submit]:not.primary_cta {
+    display: block;
+  }
+}
+
+.hbspt-form {
+  input,
+  input.hs-input,
+  select,
+  select.hs-input,
+  textarea,
+  textarea.hs-input,
+  label,
+  label.hs-input {
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+}
+
+label {
+  display: inline-block;
+}
+
+.hbspt-form {
+  margin-top: 1rem!important;
+  .hs-form-required{
+    display: none;
+  }
+  input,
+  input.hs-input,
+  select,
+  select.hs-input,
+  textarea,
+  textarea.hs-input {
+    width: 100%;
+    border: 1px solid $gray;
+    background-color: $white;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    &.primary_cta {
+      display: inline-block;
+      width: auto;
+    }
+  }
+  .rc-anchor{
+    margin-top: 0.5rem;
+  }
+  .hs_submit{
+    background: transparent;
+    margin: 0.5rem 1rem 0 0;
+
+    padding: 0;
+    display: inline-block;
+
+    font-size: 0.8em;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    z-index: 20;
+    input{
+      background-color: $brand-one;
+      color: $white;
+    }
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $darkgray;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: $darkgray;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: $darkgray;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: $darkgray;
+  }
+}
+
+input[type=radio], input[type=checkbox] {
+  display: inline-block;
+  width: auto;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid $brand-three;
+  background-color: #EBF2F4;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+label {
+  display: block;
+}
+
+.required {
+  font-weight: bold;
+  color: #F00;
+}
+
+#loading {
+  width: 32px;
+  height: 32px;
+  background-image: url(../img/loading.gif);
+  display: block;
+  position: absolute;
+  right: 130px;
+  bottom: 16px;
+  display: none;
+}
+
+#errors {
+  border: solid 1px #E58E8E;
+  padding: 10px;
+  margin: 25px 0px;
+  display: block;
+  width: 437px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+  display: none;
+}
+
+#errors li {
+  padding: 2px;
+  list-style: none;
+}
+
+#errors li:before {
+  content: ' - ';
+}
+
+#errors #info {
+  font-weight: bold;
+}
+
+#errors #info:before {
+  content: '';
+}
+
+#success {
+  border: solid 1px #83D186;
+  padding: 25px 10px;
+  margin: 25px 0px;
+  display: block;
+  width: 437px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+  font-weight: bold;
+  display: none;
+}
+
+#errors.visible, #success.visible {
+  display: block;
+}
+
+#req-field-desc {
+  font-style: italic;
+}
+
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Normalize placeholder styles */
+
+/* chrome, safari */
+::-webkit-input-placeholder {
+  color: #CCC;
+  font-style: italic;
+}
+
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #CCC;
+  font-style: italic;
+}
+
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text {
+  color: #CCC;
+  font-style: italic;
+}
+
+.single-product {
+  table, tbody, td {
+    border: 1px solid white;
+  }
+}

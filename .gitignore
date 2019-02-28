@@ -1,3 +1,7 @@
 /uploads/*
 /plugins/*
 /themes/package-lock.json
+/themes/storefront-child-theme-master
+/themes/storefront
+/themes/twentynineteen-child/node_modules
+/themes/twentynineteen-child/dist
