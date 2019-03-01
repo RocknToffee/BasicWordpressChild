@@ -124,11 +124,9 @@ $viewportSpacing = get_field('vertical_spacing_viewport', $post->ID);
                                         <div class=" block text <?php echo $className . ' ' . $field['one_column'] . ' ' . $field['two_column'] . ' ' . $field['three_column'] . ' ' . $field['four_column'] . ' ' . $field['animation'] ?>"
                                              style="justify-content: <?php echo $detail['row_align']; ?>;">
                                             <?php
-                                            echo ($detail['row_align'] == 'center') ? '<span class="text-wrapper-center">' : '';
                                             if ($detail['text']) {
                                                 echo $detail['text'];
                                             }
-                                            echo ($detail['row_align'] == 'center') ? '</span>' : '';
                                             ?>
                                         </div>
                                         <?php break;

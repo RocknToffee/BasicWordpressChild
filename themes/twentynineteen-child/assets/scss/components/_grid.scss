@@ -3,7 +3,11 @@
   .grid_layouts {
     display: grid;
     grid-gap: 3rem;
-    grid-template-columns: [full-start] minmax(calc(calc(100% - 900px) / 2), 1fr) [main-start] repeat(12, [col-start] 1fr) [main-end] minmax(calc(calc(100% - 900px) / 2), 1fr) [full-end];
+    grid-template-columns:
+            [full-start] minmax(calc(calc(100% - 900px) / 2), 1fr)
+            [main-start] repeat(12, [col-start] 1fr)
+            [main-end] minmax(calc(calc(100% - 900px) / 2), 1fr)
+            [full-end];
     align-items: stretch;
     grid-auto-rows: auto;
 
@@ -992,9 +996,9 @@
   }
   //SUBGRID STYLES
   .inner_wrapper {
-    &.grid_margin{
-      grid-gap:0;
-    }
+    //&.grid_margin{
+    //  grid-gap:0;
+    //}
     .subgrid {
       padding: 0 !important;
       display: grid !important;
